@@ -11,7 +11,7 @@ function addTask() {
 
   const li = document.createElement("li");
   li.innerHTML = `
-    <strong>${title}</strong>
+    <strong>${title}</strong>s
     <p>${desc}</p>
     <div class="time">Added: ${time}</div>
     <div class="task-actions">
